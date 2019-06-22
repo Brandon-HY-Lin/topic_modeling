@@ -1,6 +1,6 @@
 [trump_twitter_archive]: http://www.trumptwitterarchive.com/archive "Trump Twitter Archive"
 
-# topic_modeling
+# Topic Modeling
 Analyzing Trump's Tweet
 
 ### Methods
