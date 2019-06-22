@@ -1,7 +1,7 @@
 [trump_twitter_archive]: http://www.trumptwitterarchive.com/archive "Trump Twitter Archive"
 
 # topic_modeling
-Analyzing Trump's Twitter Account
+Analyzing Trump's Tweet
 
 ### Methods
 - LDA(Latent Dirichlet Allocation) based on 
@@ -12,7 +12,7 @@ Analyzing Trump's Twitter Account
 
 ### Dataset
 - [Trump Twitter Archive][trump_twitter_archive]: Date 2019/05/01 - 2019/05/31
-  - The total number of twitters: 677
+  - The total number of tweets: 677
   
   
 ### Results
