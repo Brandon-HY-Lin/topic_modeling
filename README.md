@@ -1,4 +1,5 @@
 [trump_twitter_archive]: http://www.trumptwitterarchive.com/archive "Trump Twitter Archive"
+[wordcloud_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/word_cloud_twitter.png "WordCloud image"
 
 # Topic Modeling
 Analyzing Trump's Tweet
@@ -16,35 +17,6 @@ Analyzing Trump's Tweet
   
   
 ### Results
-- BOW
-
-
-**Topic 0**|**Topic 1**|**Topic 2**
-:-----:|:-----:|:-----:
-China|Greatest|Trump
-Greatest|time|Presidential
-realDonaldTrump|know|Greatest
-Dollar|Democrats|countries
-Billion|Statement|China
-Statement|work|dbongino
-tariff|FoxNews|wanted
-Presidential|Presidential|people
-Mueller|dbongino|years
-Trump|job|deals
-
-
 - TF-IDF
 
-
-**Topic 0**|**Topic 1**|**Topic 2**
-:-----:|:-----:|:-----:
-realDonaldTrump|dbongino|Greatest
-dbongino|Democrats|China
-Presidential|Greatest|Trump
-Trump|realDonaldTrump|time
-Americans|Republican|Billion
-China|Statement|Presidential
-Greatest|vote|years
-FoxNews|China|Dollar
-countries|work|Statement
-people|wanted|FoxNews
+![wordcloud_twitter][[WordCoud of Trump's twitter]
