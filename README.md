@@ -2,6 +2,7 @@
 [wordcloud_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/word_cloud_twitter.png "WordCloud image"
 [tsne_tfidf_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/tsne_tfidf.png "t-SNE of TF-IDF"
 [wordcloud_104]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_chinese/figures/word_cloud_104.png "WordCloud image of website 104"
+[pyldavis_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/pyLDAvis_bow_trump_tweets.png "Pyldavis of Trump's tweets"
 
 # Topic Modeling
 - To uderstand what's inside Trump's mind by analyze his tweets (English contents).
@@ -21,15 +22,6 @@
   - [Crawler program](https://github.com/Brandon-HY-Lin/topic_modeling/tree/master/crawler/employment_website_104) is alow implemented by using BeautifulSoup.
   - Chinese font for WordCloud
     - [Google Onto Fonts](https://www.google.com/get/noto/)
-  
-### Hyper-parameters
-  - Trump's twitts
-    - The number of topics: 3
-  - Employment website 104
-    - The number of topics: 10
-    - The number of passes (similar to #batches): 20
-    - no_below (low frequency word count): 6
-    - no_above (high frequency word ratio): 0.1
 
 ### Results
 - TF-IDF
@@ -45,6 +37,18 @@
   
   ![WordCloud of Employment Website 104][wordcloud_104]
 
+### Hyper-parameters
+  - Trump's twitts
+    - The number of topics: 3
+      - Choose by using pyLDAvis
+        ![Visualize the LDA by using pyLDAvis][pyldavis_twitter]
+      
+  - Employment website 104
+    - The number of topics: 10
+    - The number of passes (similar to #batches): 20
+    - no_below (low frequency word count): 6
+    - no_above (high frequency word ratio): 0.1
+    
 
 ### Key APIs
 - Tokenizer
