@@ -5,7 +5,7 @@
 
 # Topic Modeling
 - To uderstand what's inside Trump's mind by analyze his tweets (English contents).
-- To catch the buzzwords in machine learning jobs by analyzing the employment website 104 (which contents are a mixture of Chinese and English).
+- To catch the key words in machine learning jobs by analyzing the employment website 104 (which contents are a mixture of Chinese and English).
 
 ### Methods
 - LDA(Latent Dirichlet Allocation) based on 
@@ -19,6 +19,8 @@
 - [104 website](https://www.104.com.tw/jobs/search/?ro=0&kwop=7&keyword=machine%20learning&order=1&asc=0&page=1&mode=s&jobsource=2018indexpoc): Date 2019/06/25
   - Total number of jobs: 996
   - [Crawler program](https://github.com/Brandon-HY-Lin/topic_modeling/tree/master/crawler/employment_website_104) is alow implemented by using BeautifulSoup.
+  - Chinese font for WordCloud
+    - [Google Onto Fonts](https://www.google.com/get/noto/)
   
 ### Hyper-parameters
   - Trump's twitts
