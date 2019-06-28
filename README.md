@@ -1,5 +1,6 @@
 [trump_twitter_archive]: http://www.trumptwitterarchive.com/archive "Trump Twitter Archive"
 [wordcloud_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/word_cloud_twitter.png "WordCloud image"
+[tsne_tfidf_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/tsne_tfidf.png "t-SNE of TF-IDF"
 [wordcloud_104]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_chinese/figures/word_cloud_104.png "WordCloud image of website 104"
 
 # Topic Modeling
@@ -31,9 +32,12 @@
 ### Results
 - TF-IDF
   - Trump's Tweets
-  
-  ![WordCloud of Trump's twitter][wordcloud_twitter]
-
+    - Keywords
+    
+    ![WordCloud of Trump's twitter][wordcloud_twitter]
+    
+    - t-SNE upon the result of TF-IDF
+      ![t-SNE of TF-IDF][tsne_tfidf_twitter]
 
   - Empolyment website 104
   
