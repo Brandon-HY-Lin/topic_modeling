@@ -40,7 +40,7 @@
 ### Hyper-parameters
   - Trump's twitts
     - The number of topics: 3
-      - Choose by using pyLDAvis
+      - Chosen by using pyLDAvis
         ![Visualize the LDA by using pyLDAvis][pyldavis_twitter]
       
   - Employment website 104
