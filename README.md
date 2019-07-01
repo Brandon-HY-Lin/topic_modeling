@@ -3,6 +3,7 @@
 [tsne_tfidf_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/tsne_tfidf.png "t-SNE of TF-IDF"
 [wordcloud_104]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_chinese/figures/word_cloud_104.png "WordCloud image of website 104"
 [pyldavis_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/pyLDAvis_bow_trump_tweets.png "Pyldavis of Trump's tweets"
+[tsne_tfidf_104]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_chinese/figures/tsne_tfidf_104.png "t-SNE of TF-IDF"
 
 # Topic Modeling
 - To uderstand what's inside Trump's mind by analyze his tweets (English contents).
@@ -34,8 +35,14 @@
       ![t-SNE of TF-IDF][tsne_tfidf_twitter]
 
   - Empolyment website 104
-  
-  ![WordCloud of Employment Website 104][wordcloud_104]
+    - Keywords
+    
+    ![WordCloud of Employment Website 104][wordcloud_104]
+    
+    - t-SNE upon the result of TF-IDF of website 104
+    
+    ![t-SNE of TF-IDF based on website 104][tsne_tfidf_104]
+    
 
 ### Hyper-parameters
   - Trump's twitts
