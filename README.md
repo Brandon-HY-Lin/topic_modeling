@@ -3,7 +3,9 @@
 [tsne_tfidf_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/tsne_tfidf.png "t-SNE of TF-IDF"
 [wordcloud_104]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_chinese/figures/word_cloud_104.png "WordCloud image of website 104"
 [pyldavis_twitter]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_english/figures/pyLDAvis_bow_trump_tweets.png "Pyldavis of Trump's tweets"
+[pyldavis_104_tfidf]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_chinese/figures/pyLDAvis_tfidf_website_104.png "pyLDAvis of website 104 using TF-IDF corpus"
 [tsne_tfidf_104]: https://github.com/Brandon-HY-Lin/topic_modeling/blob/master/lda_chinese/figures/tsne_tfidf_104.png "t-SNE of TF-IDF"
+
 
 # Topic Modeling
 - To uderstand what's inside Trump's mind by analyze his tweets (English contents).
@@ -46,9 +48,14 @@
 
 ### Hyper-parameters
   - Trump's twitts
-    - The number of topics: 3
-      - Chosen by using pyLDAvis
-        ![Visualize the LDA by using pyLDAvis][pyldavis_twitter]
+    - Number of topics: 3
+      - Chosen by pyLDAvis
+        ![Visualize the LDA using pyLDAvis][pyldavis_twitter]
+        
+  - Employment website 104
+    - Number of topics: 4
+      - Chosen by pyLDAvis
+        ![Visualize the LDA using pyLDAvis][pyldavis_104_tfidf]
       
   - Employment website 104
     - The number of topics: 10
